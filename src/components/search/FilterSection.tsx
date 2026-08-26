@@ -167,10 +167,10 @@ export const FilterSection = ({
 											setLevelOfStudy(isSelected ? lvl : undefined)
 										}
 									>
-										<Checkbox.Control>
-											<Checkbox.Indicator />
-										</Checkbox.Control>
 										<Checkbox.Content>
+											<Checkbox.Control>
+												<Checkbox.Indicator />
+											</Checkbox.Control>
 											<Label
 												htmlFor={`level-${lvl}`}
 												className="text-foreground cursor-pointer text-xs font-semibold select-none"
@@ -208,10 +208,10 @@ export const FilterSection = ({
 									setOnlyUniversityWide(isSelected ? true : undefined)
 								}
 							>
-								<Checkbox.Control>
-									<Checkbox.Indicator />
-								</Checkbox.Control>
 								<Checkbox.Content>
+									<Checkbox.Control>
+										<Checkbox.Indicator />
+									</Checkbox.Control>
 									<Label
 										htmlFor="uni-wide"
 										className="text-foreground cursor-pointer text-xs font-semibold select-none"
@@ -245,10 +245,10 @@ export const FilterSection = ({
 									setCampuses([...(currentCampuses ?? []), campus]);
 								}}
 							>
-								<Checkbox.Control>
-									<Checkbox.Indicator />
-								</Checkbox.Control>
 								<Checkbox.Content>
+									<Checkbox.Control>
+										<Checkbox.Indicator />
+									</Checkbox.Control>
 									<Label
 										htmlFor={`campus-${campus}`}
 										className="text-foreground cursor-pointer text-xs font-semibold select-none"
